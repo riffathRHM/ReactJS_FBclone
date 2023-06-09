@@ -1,0 +1,61 @@
+.rightPlaneBox{
+    
+    flex:3;
+    overflow-y:scroll;
+}
+.rightPlaneContainer{
+    padding: 20px 20px 0 0;
+}
+.advertismentContainer{
+    margin-top: 10px;
+    font-family: 'Open Sans',sans-serif;
+}
+.sponserd{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(99,93,93);
+}
+.adImage{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 88%;
+}
+.adText
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+.onlineFriend{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+}
+.onlineFrinedImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.onlineFriendName{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.onlineFrinedImageContaner{
+    display: flex;
+    position: relative;
+}
+.OnlineFriendStatus
+{
+    width: 12px;
+    height: 12px;border-radius: 50%;
+    background-color: lime;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: 2px solid white;
+}

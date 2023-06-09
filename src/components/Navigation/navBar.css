@@ -1,0 +1,98 @@
+.navBarBox{
+    height: 50px;
+    width: 100%;
+    background-color: #3b5998;
+    display:flex;
+    align-items: center;
+    position: sticky; /* when we scroll bar not move */
+    top: 0;
+}
+.navBarLeft
+{
+  flex:3; /* devide nav Bar for 12 parts and give 3 parts for left(3+5+4) */
+  font-family: sans-serif;
+}
+.navBarCenter
+{
+   flex:5;
+}
+.navBarRight
+{
+    flex:4;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.navBarIcons
+{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 20px;
+}
+.navBarIcon
+{
+    margin-left: 10px;
+}
+.iconTag{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    justify-content: center;
+    
+}
+.navBarLinks
+{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navBarLink
+{
+    margin-left: 10px;
+}
+
+
+.profilePicImage
+{
+    width: 38px;
+    height: 32px;
+    object-fit: cover; /* cover the image that entire using div */
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.logo
+{
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+}
+.searchBarBox
+{
+    widows:100px;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.SearchIcon
+{
+    margin-left: 10px;
+}
+.searchInput
+{
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+}

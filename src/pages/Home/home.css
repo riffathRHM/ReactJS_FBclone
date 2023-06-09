@@ -1,0 +1,5 @@
+.bottomContainer
+{
+    display: flex; /* display the three components in one row */
+    width: 100%;
+}
